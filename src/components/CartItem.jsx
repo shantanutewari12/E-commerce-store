@@ -17,7 +17,7 @@ const CartItem = () => {
   return (
     <div className="w-2/3 pr-10">
       <div className="w-full">
-        <h2 className="font-titleFont text-2xl">shopping cart</h2>
+        <h2 className="font-titleFont text-2xl">Shopping cart</h2>
       </div>
       <div>
         {productData.map((item) => (
@@ -40,7 +40,7 @@ const CartItem = () => {
               />
             </div>
             <h2 className="w-52">{item.title}</h2>
-            <p className="w-10">${item.price}</p>
+            <p className="w-10">₹{item.price}</p>
             <div className="w-52 flex items-center justify-between text-gray-500 gap-4 border p-3">
               <p className="text-sm">Quantity</p>
               <div className="flex items-center gap-4 text-sm font-semibold">
@@ -81,7 +81,7 @@ const CartItem = () => {
                 </span>
               </div>
             </div>
-            <p className="w-14">${item.quantity * item.price}</p>
+            <p className="w-14">₹{item.quantity * item.price}</p>
           </div>
         ))}
       </div>

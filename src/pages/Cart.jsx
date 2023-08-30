@@ -40,19 +40,18 @@ const Cart = () => {
             <p className="flex items-center gap-4 text-base">
               Subtotal{" "}
               <span className="font-titleFont font-bold text-lg">
-                ${totalAmt}
+              ₹{totalAmt}
               </span>
             </p>
             <p className="flex items-start gap-4 text-base">
               Shipping{" "}
               <span>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos,
-                veritatis.
+                House no:- 214G/15E,Lajpant nagar, Moradabad, Uttar Pradesh, India
               </span>
             </p>
           </div>
           <p className="font-titleFont font-semibold flex justify-between mt-6">
-            Total <span className="text-xl font-bold">${totalAmt}</span>
+            Total <span className="text-xl font-bold">₹{totalAmt}</span>
           </p>
           <button
             onClick={handleCheckout}

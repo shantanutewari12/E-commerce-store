@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Introduction 
 
-Welcome to my e-commerce clothing store, 
+Welcome to my e-commerce store, 
 a project designed to deliver a modern and delightful shopping experience.
 We've harnessed the power of popular technologies like React, Node.js, Tailwind CSS, Redux, React 
 Toastify, and Google Firebase for the backend to create a seamless platform for our valued customers.

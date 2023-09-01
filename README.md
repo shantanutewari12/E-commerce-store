@@ -24,7 +24,7 @@ all made possible through this dynamic combination of technologies.
 ### `npm start`
 
 If you want to open this App in your browser.\
-Click on this:- (https://deft-conkies-149fd3.netlify.app/) to view it in your browser.
+Click on this:- (https://remarkable-melomakarona-5c70e8.netlify.app/) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
